@@ -1,3 +1,6 @@
+import insta from "../images/insta.png";
+import linkdin from "../images/linkdin.png";
+import git from "../images/git.png";
 export default function ContactMe() {
   return (
     <div className="contact-me">
@@ -21,11 +24,7 @@ export default function ContactMe() {
             href="https://www.linkedin.com/in/muhammad-furqan-b555362a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             className="social-link"
           >
-            <img
-              src="/images/linkdin.png"
-              alt="LinkedIn"
-              className="social-icon"
-            />
+            <img src={linkdin} alt="LinkedIn" className="social-icon" />
             Muhammad Furqan
           </a>
         </ContentInfo>
@@ -34,7 +33,7 @@ export default function ContactMe() {
             href="https://github.com/Muhammad-Furqan667"
             className="social-link"
           >
-            <img src="/images/git.png" alt="GitHub" className="social-icon" />
+            <img src={git} alt="GitHub" className="social-icon" />
             Muhammad-Furqan667
           </a>
         </ContentInfo>
@@ -43,11 +42,7 @@ export default function ContactMe() {
             href="https://www.instagram.com/furqan_awan236?igsh=azF2dW1ocThtN242"
             className="social-link"
           >
-            <img
-              src="/images/insta.png"
-              alt="Instagram"
-              className="social-icon"
-            />
+            <img src={insta} alt="Instagram" className="social-icon" />
             Furqan Awan236
           </a>
         </ContentInfo>

@@ -1,3 +1,7 @@
+import Bankists2 from "../images/Bankists2.png";
+import Bankists1 from "../images/Bankists1.png";
+import Travellist from "../images/Travellist.PNG";
+import curExch from "../images/curExch.png";
 export default function Project() {
   return (
     <div className="project">
@@ -8,7 +12,7 @@ export default function Project() {
       <a href="https://github.com/Muhammad-Furqan667">View my GitHub</a>
       <div className="PBox">
         <ProjectBox>
-          <img src="/images/Bankists1.png" alt="Bankist images" />
+          <img src={Bankists1} alt="Bankist images" />
           <div className="purpose">
             <p>App Design</p>
             <p>Html CSS JS</p>
@@ -16,7 +20,7 @@ export default function Project() {
           <h4>Bankist Application</h4>
         </ProjectBox>
         <ProjectBox>
-          <img src="/images/Bankists2.png" alt="Bankist images" />
+          <img src={Bankists2} alt="Bankist images" />
           <div className="purpose">
             <p>App Design</p>
             <p>Html CSS JS</p>
@@ -24,7 +28,7 @@ export default function Project() {
           <h4>Bankist Application</h4>
         </ProjectBox>
         <ProjectBox>
-          <img src="/images/Travellist.PNG" alt="Travel-list" />
+          <img src={Travellist} alt="Travel-list" />
           <div className="purpose">
             <p>App Design</p>
             <p>React.js</p>
@@ -32,7 +36,7 @@ export default function Project() {
           <h4>Travel Lis</h4>
         </ProjectBox>
         <ProjectBox>
-          <img src="/images/curExch.png" alt="Travel-list" />
+          <img src={curExch} alt="Travel-list" />
           <div className="purpose">
             <p>App Design</p>
             <p>JavaScript</p>

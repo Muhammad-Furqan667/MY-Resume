@@ -1,0 +1,104 @@
+.services {
+  display: block;
+  padding: 20px;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  min-height: auto;
+}
+
+.services h2 {
+  font-size: 1.8rem;
+  color: #000;
+  margin-bottom: 15px;
+}
+
+.services h2 span {
+  color: #ffd700;
+}
+
+.services button {
+  background-color: #1a3c34;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 25px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.services button:hover {
+  background-color: #ffd700;
+  color: #000;
+}
+
+.services .box-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.Box {
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 300px;
+  padding: 15px;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+.Box:nth-child(1) {
+  animation-delay: 0.2s;
+}
+.Box:nth-child(2) {
+  animation-delay: 0.4s;
+}
+.Box:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+.Box .icon {
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.Box h3 {
+  font-size: 1rem;
+  color: #000;
+  margin-bottom: 8px;
+}
+
+.Box p {
+  font-size: 0.8rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.Box a {
+  color: #1a3c34;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.Box a:hover {
+  color: #ffd700;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

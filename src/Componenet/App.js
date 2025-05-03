@@ -1,5 +1,7 @@
 import { useRef } from "react";
 import "../style.css";
+import "../home.css";
+import "../service.css";
 import Services from "./Services";
 import Stack from "./Stack";
 import Project from "./Project";
