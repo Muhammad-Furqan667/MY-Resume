@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MY-Resume/static/css/main.a48cc46b.css",
-    "main.js": "/MY-Resume/static/js/main.ca2a30ff.js",
+    "main.css": "/MY-Resume/static/css/main.a461fac5.css",
+    "main.js": "/MY-Resume/static/js/main.cabb6047.js",
     "static/media/img.jpg": "/MY-Resume/static/media/img.89635b3948ed451a6d65.jpg",
     "static/media/Bankists2.png": "/MY-Resume/static/media/Bankists2.839cd93ccb000f1dc788.png",
     "static/media/Bankists1.png": "/MY-Resume/static/media/Bankists1.28d4c7bfe50291a7b986.png",
@@ -16,11 +16,11 @@
     "static/media/python.png": "/MY-Resume/static/media/python.43c043fc2593a3c627c6.png",
     "static/media/js.png": "/MY-Resume/static/media/js.cb441acc5fdf36307784.png",
     "index.html": "/MY-Resume/index.html",
-    "main.a48cc46b.css.map": "/MY-Resume/static/css/main.a48cc46b.css.map",
-    "main.ca2a30ff.js.map": "/MY-Resume/static/js/main.ca2a30ff.js.map"
+    "main.a461fac5.css.map": "/MY-Resume/static/css/main.a461fac5.css.map",
+    "main.cabb6047.js.map": "/MY-Resume/static/js/main.cabb6047.js.map"
   },
   "entrypoints": [
-    "static/css/main.a48cc46b.css",
-    "static/js/main.ca2a30ff.js"
+    "static/css/main.a461fac5.css",
+    "static/js/main.cabb6047.js"
   ]
 }
